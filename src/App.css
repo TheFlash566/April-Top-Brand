@@ -169,3 +169,156 @@
     position: relative;
 } */
 
+.nav {
+  display: flex;
+  gap: 10em;
+  width: 92%;
+  margin: auto;
+  padding-bottom: 1em;
+}
+
+.navList {
+  gap: 1.5em;
+  display: flex;
+  list-style: none;
+  font-size: 20px;
+  color: whitesmoke;
+  margin-top: 38px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.navButton {
+  text-decoration: none;
+  padding: 16px 40px;
+  background: #db3030;
+  border-radius: 6px;
+  font-size: 17px;
+  font-weight: 500;
+  color: whitesmoke;
+  display: flex;
+}
+
+.apt-logo {
+  margin-top: 15px;
+  width: 160px;
+  height: 60px;
+}
+
+.read-more-link {
+  text-decoration: none;
+  padding: 16px 30px;
+  background: #db3030;
+  border-radius: 6px;
+  font-weight: bold;
+  color: whitesmoke;
+  display: inline-flex;
+}
+
+.banner-content {
+  width: 90%;
+  margin: auto;
+  padding-top: 6em;
+  padding-bottom: 9em;
+}
+
+/* .Banner {
+  
+} */
+
+.banner-h1 {
+  font-size: 60px;
+  margin-top: 0px;
+  margin-bottom: 1em;
+}
+
+.sponsors-container {
+  position: relative;
+  bottom: 70px;
+  width: 90%;
+  margin: auto;
+  background: black;
+  height: 190px;
+  border-radius: 8px;
+}
+
+.wwa-h6 {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  line-height: 30px !important;
+  letter-spacing: 1px !important;
+  color: #db3030 !important;
+  display: block !important;
+  margin-bottom: 0px !important;
+}
+
+.wwa-h3 {
+  font-size: 54px !important;
+  line-height: 60px !important;
+  font-weight: 600 !important;
+  margin-top: 0px !important;
+}
+
+.wwa-h5 {
+  font-size: 1.25rem !important;
+  font-weight: 600 !important;
+  font-family: 'Hind Siliguri', sans-serif !important;
+  line-height: 1.5 !important; 
+  margin-bottom: 0px;
+}
+
+.wwa-p1 {
+  margin-top: 16px;
+  font-size: 18px !important;
+  line-height: 28px !important;
+}
+
+.wwa-p {
+  font-size: 18px !important;
+  line-height: 28px !important;
+  margin-bottom: 45px;
+  margin-top: '6px';
+}
+
+.t_p {
+  font-size: 18px;
+  margin-bottom: 2em;
+}
+
+.iat-h5 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.iat-p {
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 45px;
+  margin-top: '6px';
+}
+
+.nl-h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nl-p {
+  padding-top: 10px;
+}
+
+.fc_h3 {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 1.5em;
+}
+
+.fc_p {
+  color: #777;
+  line-height: 2;
+}
