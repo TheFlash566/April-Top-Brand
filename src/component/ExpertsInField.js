@@ -1,4 +1,4 @@
-// import { CircularProgress, CircularProgressLabel } from '@chakra-ui/react'
+
 
 const ExpertsInField = () => {
     return (
@@ -9,8 +9,3 @@ const ExpertsInField = () => {
 }
 
 export default ExpertsInField;
-
-
-{/* <CircularProgress value={40} color='green.400'>
-  <CircularProgressLabel>40%</CircularProgressLabel>
-</CircularProgress> */}
