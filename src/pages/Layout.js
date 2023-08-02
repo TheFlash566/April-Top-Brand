@@ -6,7 +6,11 @@ const Layout = () => {
     return  (
         <>
                 <div className="nav-container" style={{background: 'black', position: "sticky", 
+<<<<<<< HEAD
                      zIndex: 1020, top: 0 }} >
+=======
+                    width: '100%', zIndex: 1020, top: 0 }} >
+>>>>>>> 98c43c7 (landing page in progress)
                     <nav className="nav">
                             <Link className="" to="/" style={{position: 'relative', left: '-11px'}}>
                                 <img src="/images/logo_1.png" alt="apt-logo" className="apt-logo"/>
