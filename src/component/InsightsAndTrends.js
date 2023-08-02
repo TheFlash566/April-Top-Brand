@@ -18,7 +18,7 @@ const InsightsAndTrends = () => {
                                 <h5 className='iat-h5'>You can now listen to the entire library of Design Better books for free</h5>
                                 <p className='iat-p'>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel. 
                                     Learn more about our work! Lorem ipsum viverra feugiat.consectetur adipisicing dolor et amet.</p>
-                                <Link to='/about' className="read-more-link" style={{width: '30%', display: 'flex'}}>Read More 
+                                <Link to='/about' className="read-more-link" style={{width: 'fit-content', display: 'flex'}}>Read More 
                                     <BsArrowRight style={{marginLeft: '14px', marginTop: '4px'}} />
                                 </Link>
                         </div>
@@ -31,7 +31,7 @@ const InsightsAndTrends = () => {
                                 <h5 className='iat-h5'>You can now listen to the entire library of Design Better books for free</h5>
                                 <p className='iat-p'>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel. 
                                     Learn more about our work! Lorem ipsum viverra feugiat.consectetur adipisicing dolor et amet.</p>
-                                <Link to='/about' className="read-more-link" style={{width: '30%', display: 'flex'}}>Read More 
+                                <Link to='/about' className="read-more-link" style={{width: 'fit-content', display: 'flex'}}>Read More 
                                     <BsArrowRight style={{marginLeft: '14px', marginTop: '4px'}} /> 
                                 </Link>
                         </div>

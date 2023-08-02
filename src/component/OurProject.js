@@ -5,7 +5,7 @@ const OurProject = () => {
     return (
         <div className="ourProject" style={{background: 'white'}}>
             <div style={{width: '90%', margin: 'auto', paddingBottom: '9em', paddingTop: '4.5em'}}>
-                    <div>
+                    <div style={{paddingTop: '1em', paddingBottom: '1em'}}>
                         <h6 className='wwa-h6'>Our Projects</h6>
                         <h3 className='wwa-h3'>Take A Look At Our <br/> Latest Projects</h3>
                     </div>

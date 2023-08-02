@@ -4,7 +4,7 @@ const WhyUs = () => {
             <div style={{ backgroundColor: 'white'}}>
                 <div className="whatWeDo" style={{width: '90%', margin: 'auto', paddingBottom: '6em', paddingTop: '5em'}}>
 
-                    <div>
+                    <div style={{marginBottom: '3em'}}>
                         <h6 className='wwa-h6'>WHY US</h6>
                         <h3 className='wwa-h3'>Our Working Process To Help <br/>  You Boost Your Business</h3>
                     </div>

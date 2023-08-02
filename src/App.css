@@ -6,8 +6,8 @@
 
 .nav {
   display: flex;
-  gap: 10em;
-  width: 92%;
+  gap: 9.8em;
+  width: 90%;
   margin: auto;
   padding-bottom: 1em;
 }
@@ -147,9 +147,9 @@
 
 .op-box {
   background: black;
-    padding: 65px 65px 0px 65px;
+    padding: 65px;
     border-radius: 6px;
-    height: 470px;
+    height: auto;
 }
 
 
@@ -169,7 +169,7 @@
     position: relative;
 } */
 
-.nav {
+/* .nav {
   display: flex;
   gap: 10em;
   width: 92%;
@@ -216,7 +216,7 @@
   font-weight: bold;
   color: whitesmoke;
   display: inline-flex;
-}
+} */
 
 .banner-content {
   width: 90%;
@@ -321,4 +321,8 @@
 .fc_p {
   color: #777;
   line-height: 2;
+}
+
+.wwd-t-container > *:not(.read-more-link) {
+  width: 40%;
 }

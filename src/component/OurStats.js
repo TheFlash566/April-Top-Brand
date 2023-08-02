@@ -5,7 +5,7 @@ const OurStats = () => {
     return (
         <div className="ourStats" style={{background: 'whitesmoke'}}>
                 <div style={{width: '90%', margin: 'auto', paddingBottom: '9em', paddingTop: '4.5em'}}>
-                    <div>
+                    <div style={{marginBottom: '3em'}}>
                         <h6 className='wwa-h6'>Our Stats</h6>
                         <h3 className='wwa-h3'>We do design, code <br/> and develop.</h3>
                     </div>
@@ -21,7 +21,7 @@ const OurStats = () => {
                                 </p>
                                 <p className='wwa-p'>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel. 
                                     Learn more about our work! Lorem ipsum viverra feugiat.consectetur adipisicing dolor et amet.</p>
-                                <Link to='/about' className="read-more-link" style={{width: '108px'}}>Read More 
+                                <Link to='/about' className="read-more-link" style={{width: 'fit-content',}}>Read More 
                                     <BsArrowRight style={{marginLeft: '10px'}} /> 
                                 </Link>
                         </div>

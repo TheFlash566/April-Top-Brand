@@ -5,10 +5,10 @@ import { BsArrowRight } from 'react-icons/bs';
 const Layout = () => {
     return  (
         <>
-                <div className="container" style={{background: 'black', position: "sticky", 
-                    width: '100%', zIndex: 1020, top: 0 }} >
+                <div className="nav-container" style={{background: 'black', position: "sticky", 
+                     zIndex: 1020, top: 0 }} >
                     <nav className="nav">
-                            <Link className="" to="/">
+                            <Link className="" to="/" style={{position: 'relative', left: '-11px'}}>
                                 <img src="/images/logo_1.png" alt="apt-logo" className="apt-logo"/>
                             </Link>
                         
