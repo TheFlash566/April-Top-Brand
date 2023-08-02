@@ -9,6 +9,7 @@ import Testimonial from "../component/Testimonial";
 import InsightsAndTrends from "../component/InsightsAndTrends";
 import NewsLetter from "../component/NewsLetter";
 import Footer from "../component/Footer";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const Home = () => {
