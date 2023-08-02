@@ -9,12 +9,6 @@ import Testimonial from "../component/Testimonial";
 import InsightsAndTrends from "../component/InsightsAndTrends";
 import NewsLetter from "../component/NewsLetter";
 import Footer from "../component/Footer";
-<<<<<<< HEAD
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-=======
-import "bootstrap/dist/css/bootstrap.min.css"
->>>>>>> 98c43c7 (landing page in progress)
 
 
 const Home = () => {
