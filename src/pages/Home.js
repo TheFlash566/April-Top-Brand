@@ -31,3 +31,24 @@ const Home = () => {
 }
 
 export default Home;
+
+
+
+// googleFontLoader
+// import GoogleFontLoader from 'react-google-font-loader';
+
+// Somewhere in your React tree:
+
+// <GoogleFontLoader
+//     fonts={[
+//         {
+//             font: 'Bungee Inline',
+//             weights: [400],
+//         },
+//     ]}
+// /> 
+
+// google font in css 
+// body {
+//     font-family: 'Bungee Inline', cursive;
+// }

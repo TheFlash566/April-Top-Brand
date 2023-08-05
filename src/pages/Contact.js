@@ -1,11 +1,11 @@
-import AboutBanner from "../component/AboutBanner";
+import ContactBanner from "../component/ContactBanner";
 import SendMessage from "../component/SendMessage";
 import Footer from "../component/Footer";
 
 const Contact = () => {
     return (
         <div className="Contact">
-            <AboutBanner />
+            <ContactBanner />
             <SendMessage />
             <Footer />
         </div>

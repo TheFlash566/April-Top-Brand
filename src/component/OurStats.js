@@ -1,6 +1,9 @@
 import { BsArrowRight } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
 
+// import SpecialistStats from './SpecialistStats'
+import Counter from './Counter'
+
 const OurStats = () => {
     return (
         <div className="ourStats" style={{background: 'whitesmoke'}}>
@@ -24,7 +27,12 @@ const OurStats = () => {
                                 <Link to='/about' className="read-more-link" style={{width: 'fit-content',}}>Read More 
                                     <BsArrowRight style={{marginLeft: '10px'}} /> 
                                 </Link>
+                                <div style={{display: 'flex', gap: '9em', marginTop: '4em'}}>
+                                    <Counter target={5020} title='Projectes delivered' duration={1} />
+                                    <Counter target={2780} title='Specialists' duration={2} />
+                                </div>
                         </div>
+
                     </div>
                 </div>
         </div>

@@ -4,7 +4,7 @@ const NewsLetter = () => {
     return (
         <div className="newsLetter" style={{background: 'whitesmoke', height: 'auto'}}>
             <div style={{width: '90%', margin: 'auto', paddingTop: '4em', paddingBottom: '4em'}}>
-                <div style={{display: 'flex', gap: '4em'}}>
+                <div style={{display: 'flex', gap: '0.6em'}}>
                     <div>
                         <h3 className="nl-h3">Call Our Support</h3>
                         <p className="nl-p">24 / 7 Support Line :  +1(21) 234 557 4567</p>
@@ -19,8 +19,8 @@ const NewsLetter = () => {
                         <h3 className="nl-h3">Our Newsletter</h3>
                         <div className="nl-p" style={{display: 'flex', gap: '1em'}}>
                             <input type='email' placeholder="Email Address" style={{borderRadius: '5px', textIndent: '1.5em', height: '50px'}}/>
-                            <Link style={{padding: '18px 25px', background: '#0855e0', color: 'white', borderRadius: '5px', 
-                            height: '50px', width: '10rem', textAlign: 'center'}}>Subscribe</Link>
+                            <Link style={{padding: '12px 25px', background: '#0855e0', color: 'white', borderRadius: '5px', 
+                              textAlign: 'center', textDecoration: 'none'}}>Subscribe</Link>
                         </div>
                     </div>
                 </div>

@@ -1,7 +1,13 @@
+import { AiFillLike } from 'react-icons/ai'
+import { BsLaptopFill } from 'react-icons/bs'
+import { IoIosNavigate } from 'react-icons/io'
+import { PiLightbulbBold } from 'react-icons/pi'
+
+
 const WhyUs = () => {
     return (
         <div className="whyUs">
-            <div style={{ backgroundColor: 'white'}}>
+            <div style={{ backgroundColor: 'whitesmoke'}}>
                 <div className="whatWeDo" style={{width: '90%', margin: 'auto', paddingBottom: '6em', paddingTop: '5em'}}>
 
                     <div style={{marginBottom: '3em'}}>
@@ -11,25 +17,33 @@ const WhyUs = () => {
 
                     <div style={{display: 'flex', gap: '4em'}}>
                         <div style={{width: '50%', display: 'flex', flexDirection: 'column'}}>
-                            <h3 className='wu-h3'>Perfect Strategy</h3>
+                            <h3 className='wu-h3'>
+                                <AiFillLike style={{marginRight: '14px',     color: '#db3030'}} />
+                                Perfect Strategy</h3>
                             <p className='wu-p1'>
                                 Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel. 
                                 Learn more about our work!
                             </p>
                             
-                            <h3 className='wu-h3'>Innovative Ideas</h3>
+                            <h3 className='wu-h3'>
+                                <PiLightbulbBold style={{marginRight: '14px',     color: '#db3030'}} />
+                                Innovative Ideas</h3>
                             <p className='wu-p1'>
                                 Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel. 
                                 Learn more about our work!
                             </p>
 
-                            <h3 className='wu-h3'>Efffective Solutions</h3>
+                            <h3 className='wu-h3'>
+                                <IoIosNavigate style={{marginRight: '14px',     color: '#db3030'}} />
+                                Efffective Solutions</h3>
                             <p className='wu-p1'>
                                 Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel. 
                                 Learn more about our work!
                             </p>
 
-                            <h3 className='wu-h3'>Testing & Lunching</h3>
+                            <h3 className='wu-h3'>
+                                <BsLaptopFill style={{marginRight: '14px',     color: '#db3030'}} />
+                                Testing & Lunching</h3>
                             <p className='wu-p1'>
                                 Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel. 
                                 Learn more about our work!

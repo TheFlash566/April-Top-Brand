@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { BsArrowRight } from 'react-icons/bs'
 
-const AboutBanner = () => {
+const ServiceBanner = () => {
     return (
         <div className="about_banner" style={{background: 'black'}}>
            <div style={{width: '90%', margin: 'auto', 
@@ -10,11 +10,11 @@ const AboutBanner = () => {
                     <Link style={{textDecoration: 'none', color: '#fff'}} to='/'>Home</Link>
                     <BsArrowRight style={{color: 'white', fontSize: '14px', marginTop: '6px'}} />
                     <Link style={{textDecoration: 'none', color: 'white',
-                         fontWeight: 'bold'}} >About</Link>
+                         fontWeight: 'bold'}} >Service</Link>
                 </div>
            </div>
         </div>
     )
 }
 
-export default AboutBanner;
+export default ServiceBanner;
