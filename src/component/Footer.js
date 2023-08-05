@@ -65,6 +65,12 @@ const Footer = () => {
                                 </div>
                             </div>
                     </div>
+                    <div>
+                        <div style={{height: "3em", background: 'black', color: 'white', textAlign: 'center',
+                         borderTop: '1px solid hsl(0deg 0% 87% / 5%)', paddingTop: '1em', paddingBottom: '2.5em', wordSpacing: '2.5px'}}>
+                        © 2021 Digebiz.Made with  love Design by W3layouts
+                        </div>
+                    </div>
              </div>
            
         </>
