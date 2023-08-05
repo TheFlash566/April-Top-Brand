@@ -1,7 +1,7 @@
 const SendMessage = () => {
     return (
-        <div className="SendMessage" style={{marginBottom: '3em', marginTop: '3em'}}>
-            <div className="sm-div" style={{width: '90%', margin: 'auto', marginBottom: '3em'}}>
+        <div className="SendMessage" style={{marginBottom: '3em', marginTop: '2.5em'}}>
+            <div className="sm-div" style={{width: '90%', margin: 'auto', marginBottom: '3em', paddingTop: '3em'}}>
                 <h6 className="skills-h6" style={{color: "#db3030", fontWeight: "600", fontSize: "14px", textTransform: "uppercase", letterSpacing: "1px", display: "block"}}>SEND MESSAGE</h6>
                 <h3 style={{fontSize: "50px", lineHeight: "60px", fontWeight: "600"}}>
                     Have a Question?
